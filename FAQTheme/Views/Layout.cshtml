@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>F.A.Q. - FAQWebsite</title>
+    <link type="image/x-icon" rel="shortcut icon" href="/TheBlogTheme/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <link href="https://localhost:5001/Contents/Lists/4p0yn0k7yhh00z9224a76wh6w2/rss" rel="alternate" title="Blog" type="application/rss+xml">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css" integrity="sha384-t4IGnnWtvYimgcRMiXD2ZD04g28Is9vYsVaHo5LcWWJkoQGmMwGg+QS0mYlhbVv3" rel="stylesheet" type="text/css">
+    <link href="/TheBlogTheme/css/bootstrap-oc.css?v=WbNUpcML-AqW_KWqGYhR3gtacOn8j8cE2VZuI2qOC1Q" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@@fortawesome/fontawesome-free@5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" rel="stylesheet" type="text/css">
+    <link href="/TheBlogTheme/css/clean-blog.css?v=BhpWeMISyBL_o9iXSzWjQwXGlTrqmFzvt9150gJHqEo" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body dir="ltr">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container active">
+            <a class="navbar-brand" href="/">FAQWebsite</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/about">About</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead" style="background-image: url('../msc/questions.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>@T["Frequently Asked Questions"]</h1>
+                        <span class="subheading">
+                            Ask your questions with #askmefaq on twitter!
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @await RenderSectionAsync("Messages", required: false)
+                @await RenderBodyAsync()
+            </div>
+        </div>
+    </div>
+    <footer>
+
+
+        <div class="widget-container">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <p class="copyright text-muted">Copyright © FAQ Website @DateTime.UtcNow.Year</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script crossorigin="anonymous" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" integrity="sha384-szbKYgPl66wivXHlSpJF+CKDAVckMVnlGrP25Sndhe+PwOBcXV9LlFh4MUpRhjIB" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.js" type="text/javascript"></script>
+    <script src="/TheBlogTheme/js/clean-blog.js?v=tkp25Y3lQFc5HcsuZD8ZrgIT-lFBR42ujZ3pgaugvjA" type="text/javascript"></script>
+    <script src="/OrchardCore.Menu/Scripts/activate-links.js?v=bA97Ku-wd8s60CbBXnPvUtRoaoBKCkyIPRpAUSyhSb8" type="text/javascript"></script>
+    <script src="/TheBlogTheme/js/clean-blog-ext.js?v=AYd5Nlh_uolBL5ujHBpdyiTYUdUahomLSxwS9cJJVZk" type="text/javascript"></script>
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestid="520cdc22770e4265a879169cafb83b19" data-requestmappingfromserver="false" data-connecturl="http://localhost:52464/668718463b274f259a540e9b5257466b/browserLink"></script>
+    <!-- End Browser Link -->
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</body>
+</html>

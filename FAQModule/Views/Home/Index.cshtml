@@ -1,0 +1,18 @@
+﻿@model List<FAQModule.Models.FAQPart>
+
+<div class="faq-container">
+    @if (!Model.Any())
+    {
+        <p class="faq-empty">@T["It's a desert. There are no questions yet."]</p>
+    }
+    else
+    {
+        @foreach (var faq in Model)
+        {
+            <div class="faq-item">
+                <p class="faq-question">@faq.Question</p>
+                <p class="faq-answer">@faq.Answer</p>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQTheme\\FAQTheme.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\FAQModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\FAQModule.csproj",
+        "projectName": "FAQModule",
+        "projectPath": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\FAQModule.csproj",
+        "packagesPath": "C:\\Users\\lordn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Visual Studio 2022 IDE\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lordn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.ContentTypes.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQTheme\\FAQTheme.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQTheme\\FAQTheme.csproj",
+        "projectName": "FAQTheme",
+        "projectPath": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQTheme\\FAQTheme.csproj",
+        "packagesPath": "C:\\Users\\lordn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQTheme\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Visual Studio 2022 IDE\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lordn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\FAQModule.csproj": {
+                "projectPath": "C:\\Users\\lordn\\Desktop\\OrchardCMS\\FAQModule\\FAQModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.ResourceManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.Theme.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            },
+            "OrchardCore.Title": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-13450, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
