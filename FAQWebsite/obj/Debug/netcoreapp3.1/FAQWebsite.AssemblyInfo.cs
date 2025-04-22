@@ -88,7 +88,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FAQWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ac1243f919dd6bdd78d46abbaa14c48b30263bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e833db07b93082f8bb821bde1d83452ed057232")]
 [assembly: System.Reflection.AssemblyProductAttribute("FAQWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FAQWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
